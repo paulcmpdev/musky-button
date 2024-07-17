@@ -1,0 +1,16 @@
+{
+  "name": "printavo-embedded",
+  "version": "0.1.0",
+  "description": "HubSpot extension to display Printavo invoice in an embedded iframe",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd ./src/app/extensions/ && npm install",
+    "build": "npm run build --prefix ./src/app/extensions/",
+    "dev": "npm run dev --prefix ./src/app/extensions/"
+  },
+  "author": "Paul Sanford",
+  "license": "MIT",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
