@@ -1,0 +1,16 @@
+{
+  "name": "Printavo Embedded",
+  "description": "This extension embeds a Printavo invoice iframe within a HubSpot deal record",
+  "scopes": ["crm.objects.deals.read","crm.objects.deals.write"],
+  "uid": "printavo_embedded",
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/printavo-iframe.json"
+        }
+      ]
+    }
+  }
+}
