@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Printavo Invoice",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "PrintavoIframeComponent.jsx"
+    },
+    "objectTypes": [{ "name": "deals" }]
+
+  }
+}
